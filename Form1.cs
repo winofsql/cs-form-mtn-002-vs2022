@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+namespace cs_form_mtn_002_vs2022
 {
     public partial class Form1 : Form
     {
@@ -7,7 +7,7 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void ƒeƒXƒgToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ãƒ†ã‚¹ãƒˆToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
             {
@@ -31,24 +31,24 @@ namespace WinFormsApp1
 
         }
 
-        private void Šm”F_Click(object sender, EventArgs e)
+        private void ç¢ºèª_Click(object sender, EventArgs e)
         {
-            this.ƒwƒbƒh•”.Enabled = false;
-            this.ƒ{ƒfƒB•”.Enabled = true;
-            this.–¼.Focus();
-            this.–¼.SelectAll();
+            this.ãƒ˜ãƒƒãƒ‰éƒ¨.Enabled = false;
+            this.ãƒœãƒ‡ã‚£éƒ¨.Enabled = true;
+            this.æ°å.Focus();
+            this.æ°å.SelectAll();
         }
 
-        private void ƒLƒƒƒ“ƒZƒ‹_Click(object sender, EventArgs e)
+        private void ã‚­ãƒ£ãƒ³ã‚»ãƒ«_Click(object sender, EventArgs e)
         {
-            this.ƒwƒbƒh•”.Enabled = true;
-            this.ƒ{ƒfƒB•”.Enabled = false;
-            this.ĞˆõƒR[ƒh.Focus();
-            this.ĞˆõƒR[ƒh.SelectAll();
-            // ƒLƒƒƒ“ƒZƒ‹‚È‚Ì‚Å“ü—Í‚µ‚½ƒtƒB[ƒ‹ƒh‚ÌƒNƒŠƒA
-            this.–¼.Clear();
-            this.‹‹—^.Clear();
-            this.¶”NŒ“ú.Value = DateTime.Now;
+            this.ãƒ˜ãƒƒãƒ‰éƒ¨.Enabled = true;
+            this.ãƒœãƒ‡ã‚£éƒ¨.Enabled = false;
+            this.ç¤¾å“¡ã‚³ãƒ¼ãƒ‰.Focus();
+            this.ç¤¾å“¡ã‚³ãƒ¼ãƒ‰.SelectAll();
+            // ã‚­ãƒ£ãƒ³ã‚»ãƒ«ãªã®ã§å…¥åŠ›ã—ãŸãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®ã‚¯ãƒªã‚¢
+            this.æ°å.Clear();
+            this.çµ¦ä¸.Clear();
+            this.ç”Ÿå¹´æœˆæ—¥.Value = DateTime.Now;
 
         }
     }
